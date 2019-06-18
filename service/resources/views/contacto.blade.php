@@ -1,107 +1,9 @@
+@extends('layout')
 
-<!Doctype HTML>
-<html lang="en-us">
-<head>
-<style>
-    .map-container-4{
-        overflow:hidden;
-        padding-bottom:56.25%;
-        position:relative;
-        height:0;
-    }
-    .map-container-4 iframe{
-        left:0;
-        top:0;
-        height:100%;
-        width:100%;
-        position:absolute;
-    }
-
-    .footer-style {
-        padding-top: 10px;
-        background-color: black;
-    }
-    footer {
-        color: white;
-    }
-    footer h3 {
-        margin-bottom: 30px;
-        font-weight: 800;
-    }
-    footer .footer-above {
-        padding-top: 10px;
-        background-color: #2C3E50;
-    }
-    footer .footer-col {
-        margin-bottom: 10px;
-    }
-    footer .footer-below {
-        padding: 25px 0;
-        background-color: #233140;
-    }
-
-    .jumbotron {
-        background-size: 1330px 500px;
-    }
+@include('Style.contactocss')
 
 
-    .carousel-control.right, .carousel-control.left {
-        background-image: none;
-        color: #f4511e;
-    }
-    .carousel-indicators li {
-        border-color: #f4511e;
-    }
-    .carousel-indicators li.active {
-        background-color: #f4511e;}
 
-    .carousel-position{
-        padding:10px;
-    }
-
-    .carousel-inner img {
-        width: 100%;
-        height: 100%;
-    }
-
-    .navbar {
-        margin-bottom: 0;
-        background-color: black;
-        z-index: 9999;
-        border: 0;
-        font-size: 12px !important;
-        line-height: 1.42857143 !important;
-        letter-spacing: 4px;
-        border-radius: 0;
-        font-family: Montserrat, sans-serif;
-    }
-    .navbar-nav li a:hover, .navbar-nav li.active a {
-        color: #f4511e !important;
-        background-color: #fff !important;
-    }
-    .navbar li a, .navbar .navbar-brand {
-        color: #fff !important;
-    }
-
-
-</style>
-
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-
-
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-
-</head>
-
-<body style="text-align:center;">
 
 
 <nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="197">
@@ -128,44 +30,7 @@
     </div>
 </nav>
 
-<div id="demo" class="carousel slide" data-ride="carousel">
-    <ul class="carousel-indicators">
-        <li data-target="#demo" data-slide-to="0" class="active"></li>
-        <li data-target="#demo" data-slide-to="1"></li>
-        <li data-target="#demo" data-slide-to="2"></li>
-    </ul>
-    <div class="carousel-inner">
-        <div class="carousel-item active">
-            <img class="d-block w-200" src="https://www.fakenhamgardencentre.co.uk/wp-content/uploads/2018/12/crocus-land579066256-1520x320.jpg" alt="Los Angeles" width="1100" height="500">
-            <div class="carousel-caption">
-                <h3>RedCem</h3>
-                <p>Llamanos</p>
-            </div>
-        </div>
-        <div class="carousel-item">
-            <img class="d-block w-200" src="https://www.fakenhamgardencentre.co.uk/wp-content/uploads/2018/08/Opening-Hours-Banner-Slide-1520x320.jpg" alt="Chicago" width="1100" height="500">
-            <div class="carousel-caption">
-                <h3>RedCem</h3>
-                <p>Lideres en marketing digital</p>
-            </div>
-        </div>
-        <div class="carousel-item">
-            <img class="d-block w-200" src="https://www.fakenhamgardencentre.co.uk/wp-content/uploads/2018/05/about-1520x320.png" alt="New York" width="1100" height="500">
-            <div class="carousel-caption">
-                <h3>RedCem</h3>
-                <p>(775)-190-1995</p>
-
-            </div>
-        </div>
-    </div>
-    <a class="carousel-control-prev" href="#demo" data-slide="prev">
-        <span class="carousel-control-prev-icon"></span>
-    </a>
-    <a class="carousel-control-next" href="#demo" data-slide="next">
-        <span class="carousel-control-next-icon"></span>
-    </a>
-</div>
-
+@include('header')
 
 
 <h1 class="text-center">Contactanos Ahora</h1>
@@ -207,50 +72,4 @@
 </main>
 
 
-<footer class="text-center footer-style">
-
-    <div class="container">
-        <div class="row">
-            <div class="col-md-4 footer-col">
-                <h3>Dirección</h3>
-                <p>
-                    Villas San Marcos, Avenida San Marcos <br>
-                    #239 Mz19 Lt1 Fraccionamiento, 43845 Hgo.
-
-                </p>
-            </div>
-            <div class="col-md-4 footer-col">
-                <h3>Mis redes</h3>
-                <ul class="list-inline">
-                    <li>
-                        <a  target="_blank" href="https://www.facebook.com/redcemmx/" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
-                    </li>
-                    <li>
-                        <a  target="_blank" href="https://wa.me/5215578071829" class="btn-social btn-outline"><i class="fa fa-fw fa-whatsapp"></i></a>
-                    </li>
-                    <li>
-                        <a  target="_blank" href="https://www.redcem.org/#.XQEljS_ORSo.twitter" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
-                    </li>
-                    <li>
-                        <a  target="_blank" href="https://mx.linkedin.com/company/redcemmx" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
-                    </li>
-                    <li>
-                        <a  target="_blank" href="https://in.pinterest.com/redcemmx/" class="btn-social btn-outline"><i class="fa fa-fw fa-pinterest"></i></a>
-                    </li>
-                    <li>
-                        <a  target="_blank" href="https://www.youtube.com/channel/UCkHVI60i9_hVP8TgcL6gyOA" class="btn-social btn-outline"><i class="fa fa-fw fa-youtube"></i></a>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-md-4 footer-col">
-                <h3>RedCem</h3>
-                <p>Lideres En Marketing Digital</p>
-            </div>
-        </div>
-    </div>
-</footer>
-
-
-</body>
-
-</html>
+@include('footer')

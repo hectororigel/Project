@@ -1,8 +1,23 @@
-@extends('css')
 @extends('layout')
-@section('carousell')
+@extends('Style.welcomecss')
 
-    @parent
+@include('header')
+<nav class="navbar navbar-default-inverse navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="/">RedCem</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="active"><a href='/'>Home</a></li>
+                <li><a href='/contacto'>Contacto</a></li>
+                <li><a href='/servicios'>Servicios</a></li>
+                <button class="btn btn-warning navbar-btn" data-target="#section4">Envianos un Emali</button>
+            </ul>
+        </div>
+
+    </div>
+</nav>
 
     <nav class="col-sm-3" id="myScrollspy">
         <ul class="nav nav-pills nav-stacked">
@@ -217,13 +232,11 @@
     </div>
     </div>
 
-@stop
 
 
 
 
 
-@section('footer')
-    @parent
-    @stop
+@include('footer')
+
 

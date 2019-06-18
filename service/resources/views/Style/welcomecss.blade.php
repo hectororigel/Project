@@ -1,8 +1,5 @@
-@yield('css')
-
-
 <style>
-    @yield('add')
+
     body {
         position: relative;
     }
@@ -139,5 +136,4 @@
     .carousel-position{
         padding:10px;
     }
-
 </style>
