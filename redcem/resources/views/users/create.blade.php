@@ -25,96 +25,16 @@
             transition: transform .3s ease-in-out !important;
         }
 
-        div.servicio *
+        div.paquete *
         {
             text-align: left;
             color:#444;
             font-Family: trebuchet MS, lucida sans;
             font-size:25px;
-            margin-left: 250px;
+            margin:auto;
 
         }
 
-
-        div.internet *
-        {
-            text-align: left;
-            color:#444;
-            font-Family: trebuchet MS, lucida sans;
-            font-size:25px;
-            margin-left: 250px;
-
-        }
-
-        div.seguidores *
-        {
-            text-align: left;
-            color:#444;
-            font-Family: trebuchet MS, lucida sans;
-            font-size:25px;
-            margin-left: 250px;
-        }
-
-
-        div.marca *
-        {
-            text-align: left;
-            color:#444;
-            font-Family: trebuchet MS, lucida sans;
-            font-size:25px;
-            margin-left: 250px
-        }
-
-        div.citas *
-        {
-            text-align: left;
-            color:#444;
-            font-Family: trebuchet MS, lucida sans;
-            font-size:25px;
-            margin-left: 250px
-        }
-
-        div.negocio *
-        {
-            text-align: left;
-            color:#444;
-            font-Family: trebuchet MS, lucida sans;
-            font-size:25px;
-            margin-left: 250px
-        }
-
-        div.web *
-        {
-            text-align: left;
-            color:#444;
-            font-Family: trebuchet MS, lucida sans;
-            font-size:25px;
-            margin-left: 250px
-        }
-        div.sociales *
-        {
-            text-align: left;
-            color:#444;
-            font-Family: trebuchet MS, lucida sans;
-            font-size:25px;
-            margin-left: 250px
-        }
-        div.evento *
-        {
-            text-align: left;
-            color:#444;
-            font-Family: trebuchet MS, lucida sans;
-            font-size:25px;
-            margin-left: 250px
-        }
-        div.fidelización *
-        {
-            text-align: left;
-            color:#444;
-            font-Family:trebuchet MS, lucida sans;
-            font-size:25px;
-            margin-left: 250px
-        }
 
 
         /*.carousel{
@@ -322,7 +242,7 @@
 
 
                 <h3 class="title-style">Vender un producto/servicio</h3>
-                <div class="servicio"><p>
+                <div class="paquete text-center"><p>
 
                         • Análisis de negocio<br>
                         • Creación de contenido (4 por mes)<br>
@@ -335,7 +255,7 @@
 
                     </p></div>
                 <div class="btn btn-danger btn-lg" data-target="#myCarousel" data-slide-to="0" role="button" >Regresar al menú</div>
-                <button @click="button = +1" class="btn btn-danger btn-lg" data-target="#myCarousel" data-slide-to="11" value="1">Enviar Información</button>
+                <button @click="button = 'vender_producto'" class="btn btn-danger btn-lg" data-target="#myCarousel" data-slide-to="11" value="1">Enviar Información</button>
 
                 <!--v-on:click="say('Estrategias Package', $event)"-->
 
@@ -345,8 +265,8 @@
 
 
                 <h3 class="title-style">Realizar ventas por internet</h3>
-                <div class="internet">
-                    <p>
+                <div class="paquete">
+                    <p align="auto">
                         • Análisis de negocio<br>
                         • Creación de contenido (4 por mes)<br>
                         • 1 post semanal<br>
@@ -364,7 +284,7 @@
 
 
                 <a class="btn btn-danger btn-lg" data-target="#myCarousel" data-slide-to="0" role="button" >Regresar al menú</a>
-                <button @click="button = +2" class="btn btn-danger btn-lg" data-target="#myCarousel" data-slide-to="11">Enviar Información</button>
+                <button @click="button = 'ventas_internet'" class="btn btn-danger btn-lg" data-target="#myCarousel" data-slide-to="11">Enviar Información</button>
 
 
 
@@ -374,7 +294,7 @@
 
                 <h3 class="title-style">Incrementar likes/seguidores</h3>
 
-                <div class="seguidores">
+                <div class="paquete">
 
                     <p>
                         • Análisis de negocio<br>
@@ -392,7 +312,7 @@
                 <a class="btn btn-danger btn-lg" data-target="#myCarousel" data-slide-to="0" role="button" >Regresar al menú</a>
 
 
-                <button @click="button = +3" class="btn btn-danger btn-lg" data-target="#myCarousel" data-slide-to="11">Enviar Información</button>
+                <button @click="button ='incrementar_likes'" class="btn btn-danger btn-lg" data-target="#myCarousel" data-slide-to="11">Enviar Información</button>
 
 
 
@@ -401,7 +321,7 @@
             <div class="item" id="section4">
                 <h2 class="title-style">Dar a conocer tu marca</h2>
 
-                <div class="marca">
+                <div class="paquete">
                     <p>
 
                         • Análisis de negocio<br>
@@ -420,7 +340,7 @@
 
                 </div>
                 <a class="btn btn-danger btn-lg" data-target="#myCarousel" data-slide-to="0" role="button" >Regresar al menú</a>
-                <button  @click="button = +4" class="btn btn-danger btn-lg" data-target="#myCarousel" data-slide-to="11">Enviar Información</button>
+                <button  @click="button = 'conocer_marca'" class="btn btn-danger btn-lg" data-target="#myCarousel" data-slide-to="11">Enviar Información</button>
 
             </div>
 
@@ -430,7 +350,7 @@
 
 
                 <h3 class="title-style">Incrementar/agendar citas</h3>
-                <div class="citas"><p>
+                <div class="paquete"><p>
 
                         • Análisis de negocio 2 hrs.<br>
                         • Creación de contenido (4 por mes)<br>
@@ -446,12 +366,12 @@
 
                     </p></div>
                 <div class="btn btn-danger btn-lg" data-target="#myCarousel" data-slide-to="0" role="button" >Regresar al menú</div>
-                <button @click="button =+5" class="btn btn-danger btn-lg" data-target="#myCarousel" data-slide-to="11" value="">Enviar Información</button>
+                <button @click="button ='incrementar_citas'" class="btn btn-danger btn-lg" data-target="#myCarousel" data-slide-to="11" value="">Enviar Información</button>
             </div>
 
             <div class="item">
             <h3 class="title-style">Visitas a mi local/negocio</h3>
-            <div class="negocio" id="section6"><p>
+            <div class="paquete" id="section6"><p>
 
                     • Análisis de negocio<br>
                     • Creación de contenido<br>
@@ -470,13 +390,13 @@
                 </p>
             </div>
             <div class="btn btn-danger btn-lg" data-target="#myCarousel" data-slide-to="0" role="button" >Regresar al menú</div>
-            <button @click="button =+6" class="btn btn-danger btn-lg" data-target="#myCarousel" data-slide-to="11" value="">Enviar Información</button>
+            <button @click="button ='visitas_local'" class="btn btn-danger btn-lg" data-target="#myCarousel" data-slide-to="11" value="">Enviar Información</button>
         </div>
 
 
             <div class="item">
                 <h3 class="title-style">Visitas a mi sitio web</h3>
-                <div class="web" id="section7"><p>
+                <div class="paquete" id="section7"><p>
 
                         • Análisis de negocio<br>
                         • Creación de contenido (4 por mes)<br>
@@ -491,12 +411,12 @@
                     </p>
                 </div>
                 <div class="btn btn-danger btn-lg" data-target="#myCarousel" data-slide-to="0" role="button" >Regresar al menú</div>
-                <button @click="button =+7" class="btn btn-danger btn-lg" data-target="#myCarousel" data-slide-to="11" value="">Enviar Información</button>
+                <button @click="button ='Visitas_sitio_web'" class="btn btn-danger btn-lg" data-target="#myCarousel" data-slide-to="11" value="">Enviar Información</button>
             </div>
 
             <div class="item">
                 <h3 class="title-style">Promoción de eventos sociales</h3>
-                <div class="sociales" id="section8"><p>
+                <div class="paquete" id="section8"><p>
 
                         • Creación de contenido (4 por mes)<br>
                         • 1 post semanal<br>
@@ -515,13 +435,13 @@
                     </p>
                 </div>
                 <div class="btn btn-danger btn-lg" data-target="#myCarousel" data-slide-to="0" role="button" >Regresar al menú</div>
-                <button @click="button =+8" class="btn btn-danger btn-lg" data-target="#myCarousel" data-slide-to="11" value="">Enviar Información</button>
+                <button @click="button ='promocion_eventos'" class="btn btn-danger btn-lg" data-target="#myCarousel" data-slide-to="11" value="">Enviar Información</button>
             </div>
 
 
             <div class="item">
                 <h3 class="title-style">Suscripción a una página/evento</h3>
-                <div class="evento" id="section9"><p>
+                <div class="paquete" id="section9"><p>
 
                         • Creación de contenido<br>
                         • 1 post semanal<br>
@@ -538,13 +458,13 @@
                     </p>
                 </div>
                 <div class="btn btn-danger btn-lg" data-target="#myCarousel" data-slide-to="0" role="button" >Regresar al menú</div>
-                <button @click="button =+9" class="btn btn-danger btn-lg" data-target="#myCarousel" data-slide-to="11" value="">Enviar Información</button>
+                <button @click="button ='suscripcion_pagina'" class="btn btn-danger btn-lg" data-target="#myCarousel" data-slide-to="11" value="">Enviar Información</button>
             </div>
 
 
             <div class="item">
                 <h3 class="title-style">Encuestas de satisfacción y fidelización</h3>
-                <div class="fidelización" id="section10"><p>
+                <div class="paquete" id="section10"><p>
 
                         • Creación de encuesta de satisfacción (5 preguntas)<br>
                         • Medición de NPS<br>
@@ -557,7 +477,7 @@
                     </p>
                 </div>
                 <div class="btn btn-danger btn-lg" data-target="#myCarousel" data-slide-to="0" role="button" >Regresar al menú</div>
-                <button @click="button =+10" class="btn btn-danger btn-lg" data-target="#myCarousel" data-slide-to="11" value="">Enviar Información</button>
+                <button @click="button ='encuestas_satisfaccion'" class="btn btn-danger btn-lg" data-target="#myCarousel" data-slide-to="11" value="">Enviar Información</button>
             </div>
 
             <div class="item">
@@ -611,21 +531,24 @@
                                     </div>
 
                                     <div class="form-group">
+                                    <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+                                    <div class="col-md-8">
+                                        <input  id="value"  type="text" v-model="button"  class="form-control" readonly="readonly">
+                                    </div>
+                                    </div>
+
+
+                                    <div class="form-group">
                                         <div class="col-md-12 text-center" >
-                                            <button @click="submit" type="submit" class="btn btn-danger btn-lg">Enviar</button>
+                                            <button type="submit" class="btn btn-danger btn-lg">Enviar</button>
 
 
 
 
                                             <a class="btn btn-danger btn-lg" data-target="#myCarousel" data-slide-to="0" role="button">Regresar al menú</a>
-                                            <br>
-                                            <br>
-                                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
-                                            <div class="col-md-8">
-                                                <input  id="hector"  type="text" v-model="button"  class="form-control" readonly="readonly">
-                                            </div>
 
-                                            <input type="hidden" id="custId" name="custId" value="result">
+
+
 
                                         </div>
                                     </div>
@@ -661,56 +584,16 @@
 <script>
 
 
-/*
-    var example2 = new Vue({
-        el: '#click',
-        data: {
-            name: 'Vue.js'
-        },
-        // define methods under the `methods` object
-        methods: {
-            button: function (event) {
-                // `this` inside methods points to the Vue instance
-                alert('Hello ' + this.name + '!')
-                // `event` is the native DOM event
-                if (event) {
-                    const a = "You selected the firts package"
-                }
-            }
+    var example1 = new Vue({
+        el:'#click',
+        data:{
+            button:''
+
+
+        },methods:{
+
         }
     })
-
-
-*/
-
-
-
-
-
-var example1 = new Vue({
-    el:'#click',
-    data:{
-        button:0,
-        value:11,
-
-
-    },methods:{
-    submit:function(){
-        const result = this.button + this.value;
-        alert(result)
-    }
-    }
-})
-
-
-
-
-
-
-
-
-
-
 
 </script>
 
