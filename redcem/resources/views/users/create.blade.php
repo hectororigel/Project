@@ -175,7 +175,8 @@
 
 
                 <h3 class="title-style">Vender un producto/servicio</h3>
-                <div class="paquete text-center"><p>
+                <div class="paquete text-center">
+                    <p>
 
                         • Análisis de negocio<br>
                         • Creación de contenido (4 por mes)<br>
@@ -186,7 +187,8 @@
                         • Hasta 2 redes sociales<br>
                         • Creación/revisión de fan page o perfil 4 hrs.<br>
 
-                    </p></div>
+                    </p>
+                </div>
                 <div class="btn btn-danger btn-lg" data-target="#myCarousel" data-slide-to="0" role="button" >Regresar al menú</div>
                 <button @click="button = 'vender_producto'" class="btn btn-danger btn-lg" data-target="#myCarousel" data-slide-to="11" value="1">Enviar Información</button>
 
@@ -283,7 +285,8 @@
 
 
                 <h3 class="title-style">Incrementar/agendar citas</h3>
-                <div class="paquete"><p>
+                <div class="paquete">
+                    <p>
 
                         • Análisis de negocio 2 hrs.<br>
                         • Creación de contenido (4 por mes)<br>
@@ -297,14 +300,16 @@
                         • Confirmación de citas (sms, correo)<br>
                         • Creación de landing page<br>
 
-                    </p></div>
+                    </p>
+                </div>
                 <div class="btn btn-danger btn-lg" data-target="#myCarousel" data-slide-to="0" role="button" >Regresar al menú</div>
                 <button @click="button ='incrementar_citas'" class="btn btn-danger btn-lg" data-target="#myCarousel" data-slide-to="11" value="">Enviar Información</button>
             </div>
 
             <div class="item">
             <h3 class="title-style">Visitas a mi local/negocio</h3>
-            <div class="paquete" id="section6"><p>
+            <div class="paquete" id="section6">
+                <p>
 
                     • Análisis de negocio<br>
                     • Creación de contenido<br>
@@ -329,7 +334,8 @@
 
             <div class="item">
                 <h3 class="title-style">Visitas a mi sitio web</h3>
-                <div class="paquete" id="section7"><p>
+                <div class="paquete" id="section7">
+                    <p>
 
                         • Análisis de negocio<br>
                         • Creación de contenido (4 por mes)<br>
@@ -349,7 +355,8 @@
 
             <div class="item">
                 <h3 class="title-style">Promoción de eventos sociales</h3>
-                <div class="paquete" id="section8"><p>
+                <div class="paquete" id="section8">
+                    <p>
 
                         • Creación de contenido (4 por mes)<br>
                         • 1 post semanal<br>
@@ -374,7 +381,8 @@
 
             <div class="item">
                 <h3 class="title-style">Suscripción a una página/evento</h3>
-                <div class="paquete" id="section9"><p>
+                <div class="paquete" id="section9">
+                    <p>
 
                         • Creación de contenido<br>
                         • 1 post semanal<br>
@@ -397,7 +405,8 @@
 
             <div class="item">
                 <h3 class="title-style">Encuestas de satisfacción y fidelización</h3>
-                <div class="paquete" id="section10"><p>
+                <div class="paquete" id="section10">
+                    <p>
 
                         • Creación de encuesta de satisfacción (5 preguntas)<br>
                         • Medición de NPS<br>
