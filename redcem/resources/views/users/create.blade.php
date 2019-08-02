@@ -49,84 +49,15 @@
             font-size:40px;
         }
 
-        div.list1 *
+        div.list *
 
         {
 
             color:black;
             font-Family: trebuchet MS, lucida sans;
             font-size:25px;
-            margin-left: 3px;
+            margin: auto;
         }
-
-        div.list2 *
-        {
-            color:black;
-            color:black;
-            font-Family: trebuchet MS, lucida sans;
-            font-size:25px;
-            margin-left: 1px;
-        }
-
-        div.list3 *
-        {
-
-            color:black;
-            font-Family: trebuchet MS, lucida sans;
-            font-size:25px;
-            margin-left: 22px;
-        }
-
-        div.list4 *
-        {
-            color:black;
-            font-Family: trebuchet MS, lucida sans;
-            font-size:25px;
-            margin-left: -55px;
-        }
-        div.list5 *
-        {
-            color:black;
-            font-Family: trebuchet MS, lucida sans;
-            font-size:25px;
-            margin-left: -5px;
-        }
-        div.list6 *
-        {
-            color:black;
-            font-Family: trebuchet MS, lucida sans;
-            font-size:25px;
-            margin-left: -31px;
-        }
-        div.list7 *
-        {
-            color:black;
-            font-Family: trebuchet MS, lucida sans;
-            font-size:25px;
-            margin-left: -76px;
-        }
-        div.list8 *
-        {
-            color:black;
-            font-Family: Comic Sans MS;
-            font-size:25px;
-            margin-left: 26px;
-        }
-        div.list9 *
-        {
-            color:black;
-            font-Family: trebuchet MS, lucida sans;
-            font-size:25px;
-            margin-left: 49px;
-        }
-        div.list10 *
-        {
-            color:black;
-            font-Family: trebuchet MS, lucida sans;
-            font-size:25px;
-            margin-left: 150px;
-        }
-
 
 
         ol {
@@ -224,16 +155,18 @@
                     <h3 class="title">Servicios</h3>
                 </div>
                 <ul class="rounded-list">
-                    <div class="list1"><a href="#section1" data-target="#myCarousel" data-slide-to="1">• Vender un producto/servicio </a></div>
-                    <div class="list2"><a href="#section2" data-target="#myCarousel" data-slide-to="2" >• Realizar ventas por internet</a></div>
-                    <div class="list3"><a href="#section3" data-target="#myCarousel" data-slide-to="3">• Incrementar likes/seguidores</a></div>
-                    <div class="list4"><a href="#section4" data-target="#myCarousel" data-slide-to="4">• Dar a conocer tu marca</a></div>
-                    <div class="list5"><a href="#section5" data-target="#myCarousel" data-slide-to="5">• Incrementar/agendar citas</a></div>
-                    <div class="list6"><a href="#section6" data-target="#myCarousel" data-slide-to="6">• Visitas a mi local/negocio</a></div>
-                    <div class="list7"><a href="#section7" data-target="#myCarousel" data-slide-to="7">• Visitas a mi sitio web</a></div>
-                    <div class="list8"><a href="#section8" data-target="#myCarousel" data-slide-to="8">• Promoción de eventos sociales</a></div>
-                    <div class="list9"><a href="#section9" data-target="#myCarousel" data-slide-to="9">• Suscripción a una página/evento</a></div>
-                    <div class="list10"><a href="#section10" data-target="#myCarousel" data-slide-to="10">• Encuestas de satisfacción y fidelización.</a></div>
+                    <div class="list">
+                        <a href="#section1" data-target="#myCarousel" data-slide-to="1">Vender un producto/servicio </a>
+                    <a href="#section2" data-target="#myCarousel" data-slide-to="2" >Realizar ventas por internet</a>
+                    <a href="#section3" data-target="#myCarousel" data-slide-to="3">Incrementar likes/seguidores</a>
+                    <a href="#section4" data-target="#myCarousel" data-slide-to="4">Dar a conocer tu marca</a>
+                    <a href="#section5" data-target="#myCarousel" data-slide-to="5">Incrementar/agendar citas</a>
+                    <a href="#section6" data-target="#myCarousel" data-slide-to="6">Visitas a mi local/negocio</a>
+                    <a href="#section7" data-target="#myCarousel" data-slide-to="7">Visitas a mi sitio web</a>
+                    <a href="#section8" data-target="#myCarousel" data-slide-to="8">Promoción de eventos sociales</a>
+                    <a href="#section9" data-target="#myCarousel" data-slide-to="9">Suscripción a una página/evento</a>
+                    <a href="#section10" data-target="#myCarousel" data-slide-to="10">Encuestas de satisfacción y fidelización.</a>
+                    </div>
                 </ul>
 
             </div>
