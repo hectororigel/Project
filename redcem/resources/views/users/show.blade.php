@@ -17,7 +17,7 @@
     <h2 class="title">Mensaje</h2>
     <div class="content">{{$redcem->message}}</div>
 
-    <h2 class="selection">seleccion</h2>
+    <h2 class="title">seleccion</h2>
     <div class="content">{{$redcem->selection}}</div>
 
 
