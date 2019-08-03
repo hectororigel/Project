@@ -53,8 +53,19 @@
             <button type="submit" class="button is-link">Modificar</button>
         </div>
     </div>
+    </div>
+
+
+
+    <div class="field">
+        <label class="label" for="phoneNumber">Seleccion</label>
+        <div class="control">
+            <input type="text" class="input" name="selection" readonly="readonly" value="{{$redcem->selection}}">
+        </div>
 
     </div>
+
+
 </form>
 
     <form method="POST" action="/users/{{$redcem->id}}">
@@ -66,6 +77,9 @@
                 <button type="submit" class="button is-link">Borrar</button>
             </div>
         </div>
+
+
+
     </form>
 
     @endsection

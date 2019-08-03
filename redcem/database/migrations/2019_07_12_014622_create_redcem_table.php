@@ -21,6 +21,7 @@ class CreateRedcemTable extends Migration
             $table->string('email');
             $table->unsignedBigInteger('phoneNumber');
             $table->string('message');
+            $table->string('selection');
             $table->timestamps();
 
 

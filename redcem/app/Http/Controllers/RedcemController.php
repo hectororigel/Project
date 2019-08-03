@@ -49,7 +49,8 @@ class RedcemController extends Controller
             'lastName' => ['required', 'min:4'],
             'email' => ['required', 'min:8'],
             'phoneNumber' => ['required', 'min:10'],
-            'message' => ['required', 'min:5']
+            'message' => ['required', 'min:5'],
+            'selection' => ['required', 'min:2']
         ]);
 
 
@@ -113,7 +114,8 @@ class RedcemController extends Controller
             'lastName' => ['required', 'min:4'],
             'email' => ['required', 'min:8'],
             'phoneNumber' => ['required', 'min:10'],
-            'message' => ['required', 'min:5']
+            'message' => ['required', 'min:5'],
+            'selcection' =>['required', 'min:2']
         ]);
 
        $redcem->update(request(['name', 'lastName',

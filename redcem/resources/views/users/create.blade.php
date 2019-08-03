@@ -475,7 +475,7 @@
                                     <div class="form-group">
                                     <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
                                     <div class="col-md-8">
-                                        <input  id="value"  type="text" v-model="button"  class="form-control" readonly="readonly">
+                                        <input  id="selection"  type="text" v-model="button"  class="form-control" readonly="readonly" name="selection" >
                                     </div>
                                     </div>
 

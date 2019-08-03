@@ -3,16 +3,12 @@
 
 
 {{$redcem->message}}
+<br>
+{{$redcem->selection}}
 
 @component('mail::button', ['url' => url('/redcem/' . $redcem->id)])
 Button text
-@endcomponent
 
-    @extends('users.create')
-
-    @section('test')
-@parent
-    @endsection
 
 
 Thanks,<br>

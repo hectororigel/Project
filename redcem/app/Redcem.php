@@ -12,7 +12,7 @@ class Redcem extends Model
         [
             'owner_id','name', 'lastName',
             'email', 'phoneNumber'
-            ,'message'
+            ,'message', 'selection'
 
         ];
 
