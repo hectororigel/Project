@@ -95,7 +95,7 @@
        }
 
        .rectangle-list a:hover{
-           background: #f8f9fa;
+           background: #A9A9A9;
            /*background: #eee;*/
        }
 
@@ -249,7 +249,7 @@
                 <h3 class="title-style">Realizar ventas por internet</h3>
                 <div class="d-flex flex-column justify-content-around p-0 mx-2 mb-0">
                     <div class="row p-0 m-auto bg-transparent">
-                        <div class="d-flex flex-column">
+                        <div class="d-flex flex-column well well-sm">
                             <div class="card d-flex flex-xl-row-reverse">
                                 <img src="https://www.redcem.org/images/paquete-foto-mini.jpg" class="embed-responsive-item rounded" alt="">
                                 <div class="paquete">
@@ -287,7 +287,7 @@
 
                 <div class="d-flex flex-column justify-content-around p-0 mx-2 mb-0">
                     <div class="row p-0 m-auto bg-transparent">
-                        <div class="d-flex flex-column">
+                        <div class="d-flex flex-column well well-sm">
                             <div class="card d-flex flex-xl-row-reverse">
                                 <img src="https://www.redcem.org/images/paquete-foto-mini.jpg" class="embed-responsive-item rounded" alt="">
                                 <div class="paquete">
@@ -323,7 +323,7 @@
 
                 <div class="d-flex flex-column justify-content-around p-0 mx-2 mb-0">
                     <div class="row p-0 m-auto bg-transparent">
-                        <div class="d-flex flex-column">
+                        <div class="d-flex flex-column well well-sm">
                             <div class="card d-flex flex-xl-row-reverse">
                                 <img src="https://www.redcem.org/images/paquete-foto-mini.jpg" class="embed-responsive-item rounded" alt="">
                                 <div class="paquete">
@@ -364,7 +364,7 @@
                 <h3 class="title-style">Incrementar/agendar citas</h3>
                 <div class="d-flex flex-column justify-content-around p-0 mx-2 mb-0">
                     <div class="row p-0 m-auto bg-transparent">
-                        <div class="d-flex flex-column">
+                        <div class="d-flex flex-column well well-sm">
                             <div class="card d-flex flex-xl-row-reverse">
                                 <img src="https://www.redcem.org/images/paquete-foto-mini.jpg" class="embed-responsive-item rounded" alt="">
                                 <div class="paquete">
@@ -401,7 +401,7 @@
             <h3 class="title-style">Visitas a mi local/negocio</h3>
                 <div class="d-flex flex-column justify-content-around p-0 mx-2 mb-0">
                     <div class="row p-0 m-auto bg-transparent">
-                        <div class="d-flex flex-column">
+                        <div class="d-flex flex-column well well-sm">
                             <div class="card d-flex flex-xl-row-reverse">
                                 <img src="https://www.redcem.org/images/paquete-foto-mini.jpg" class="embed-responsive-item rounded" alt="">
                                 <div class="paquete">
@@ -441,7 +441,7 @@
                 <h3 class="title-style">Visitas a mi sitio web</h3>
                 <div class="d-flex flex-column justify-content-around p-0 mx-2 mb-0">
                     <div class="row p-0 m-auto bg-transparent">
-                        <div class="d-flex flex-column">
+                        <div class="d-flex flex-column well well-sm">
                             <div class="card d-flex flex-xl-row-reverse">
                                 <img src="https://www.redcem.org/images/paquete-foto-mini.jpg" class="embed-responsive-item rounded" alt="">
                                 <div class="paquete">
@@ -476,7 +476,7 @@
                 <h3 class="title-style">Promoción de eventos sociales</h3>
                 <div class="d-flex flex-column justify-content-around p-0 mx-2 mb-0">
                     <div class="row p-0 m-auto bg-transparent">
-                        <div class="d-flex flex-column">
+                        <div class="d-flex flex-column well well-sm">
                             <div class="card d-flex flex-xl-row-reverse">
                                 <img src="https://www.redcem.org/images/paquete-foto-mini.jpg" class="embed-responsive-item rounded" alt="">
                                 <div class="paquete">
@@ -516,7 +516,7 @@
                 <h3 class="title-style ">Suscripción a una página/evento</h3>
                 <div class="d-flex flex-column justify-content-around p-0 mx-2 mb-0">
                     <div class="row p-0 m-auto bg-transparent">
-                        <div class="d-flex flex-column">
+                        <div class="d-flex flex-column well well-sm">
                             <div class="card d-flex flex-xl-row-reverse">
                                 <img src="https://www.redcem.org/images/paquete-foto-mini.jpg" class="embed-responsive-item rounded" alt="">
                                 <div class="paquete">
@@ -553,7 +553,7 @@
                 <h3 class="title-style">Encuestas de satisfacción y fidelización</h3>
                 <div class="d-flex flex-column justify-content-around p-0 mx-2 mb-0">
                     <div class="row p-0 m-auto bg-transparent">
-                        <div class="d-flex flex-column">
+                        <div class="d-flex flex-column well well-sm">
                             <div class="card d-flex flex-xl-row-reverse">
                                 <img src="https://www.redcem.org/images/paquete-foto-mini.jpg" class="img-responsive rounded mx-auto" alt="">
                                 <div class="paquete">
