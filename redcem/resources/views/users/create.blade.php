@@ -4,12 +4,12 @@
     <title>Redcem - Servicios</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://www.redcem.org/css/all.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <!--*************Style Begins***********-->
     <style>
 
@@ -129,6 +129,7 @@
        }
 
 
+
     </style>
 
     <!--*************Script Begins************-->
@@ -144,7 +145,7 @@
 
 <div class="container ">
 
-    <div id="myCarousel" class="carousel slide text-center" data-ride="">
+    <div id="myCarousel" class="carousel slide" data-ride="">
         <!-- Indicators -->
         <ol class="carousel-indicators">
             <a href="" data-target="#myCarousel" data-slide-to="0" class="active"></a>
@@ -163,12 +164,12 @@
         <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox" id="click">
 
-            <div class="item active ">
+            <div class="carousel-item active">
 
 
 
-                <div class="services" align="center">
-                    <h3 class="title">Servicios</h3>
+                <div class="services">
+                    <h3 class="title text-center">Servicios</h3>
                 </div>
 
 
@@ -207,8 +208,8 @@
 
 
 
-            <div class="item" id="section1" >
-                <h3 class="title-style">Vender un producto/servicio</h3>
+            <div class="carousel-item" id="section1" >
+                <h3 class="title-style text-center">Vender un producto/servicio</h3>
                     <div class="d-flex flex-column justify-content-around p-0 mx-2 mb-0">
                     <div class="row p-0 m-auto bg-transparent ">
                     <div class="d-flex flex-column well well-sm">
@@ -245,8 +246,8 @@
             </div>
 
 
-            <div class="item" id="section2">
-                <h3 class="title-style">Realizar ventas por internet</h3>
+            <div class="carousel-item" id="section2">
+                <h3 class="title-style text-center">Realizar ventas por internet</h3>
                 <div class="d-flex flex-column justify-content-around p-0 mx-2 mb-0">
                     <div class="row p-0 m-auto bg-transparent">
                         <div class="d-flex flex-column well well-sm">
@@ -281,9 +282,9 @@
                 </div>
             </div>
 
-            <div class="item" id="section3">
+            <div class="carousel-item" id="section3">
 
-                <h3 class="title-style">Incrementar likes/seguidores</h3>
+                <h3 class="title-style text-center">Incrementar likes/seguidores</h3>
 
                 <div class="d-flex flex-column justify-content-around p-0 mx-2 mb-0">
                     <div class="row p-0 m-auto bg-transparent">
@@ -318,8 +319,8 @@
                 </div>
             </div>
 
-            <div class="item" id="section4">
-                <h2 class="title-style">Dar a conocer tu marca</h2>
+            <div class="carousel-item" id="section4">
+                <h2 class="title-style text-center">Dar a conocer tu marca</h2>
 
                 <div class="d-flex flex-column justify-content-around p-0 mx-2 mb-0">
                     <div class="row p-0 m-auto bg-transparent">
@@ -358,10 +359,10 @@
 
 
 
-            <div class="item" id="section5">
+            <div class="carousel-item" id="section5">
 
 
-                <h3 class="title-style">Incrementar/agendar citas</h3>
+                <h3 class="title-style text-center">Incrementar/agendar citas</h3>
                 <div class="d-flex flex-column justify-content-around p-0 mx-2 mb-0">
                     <div class="row p-0 m-auto bg-transparent">
                         <div class="d-flex flex-column well well-sm">
@@ -397,8 +398,8 @@
                 </div>
             </div>
 
-            <div class="item" id="section6">
-            <h3 class="title-style">Visitas a mi local/negocio</h3>
+            <div class="carousel-item" id="section6">
+            <h3 class="title-style text-center">Visitas a mi local/negocio</h3>
                 <div class="d-flex flex-column justify-content-around p-0 mx-2 mb-0">
                     <div class="row p-0 m-auto bg-transparent">
                         <div class="d-flex flex-column well well-sm">
@@ -437,8 +438,8 @@
             </div>
 
 
-            <div class="item" id="section7">
-                <h3 class="title-style">Visitas a mi sitio web</h3>
+            <div class="carousel-item" id="section7">
+                <h3 class="title-style text-center">Visitas a mi sitio web</h3>
                 <div class="d-flex flex-column justify-content-around p-0 mx-2 mb-0">
                     <div class="row p-0 m-auto bg-transparent">
                         <div class="d-flex flex-column well well-sm">
@@ -472,8 +473,8 @@
                 </div>
             </div>
 
-            <div class="item" id="section8">
-                <h3 class="title-style">Promoción de eventos sociales</h3>
+            <div class="carousel-item" id="section8">
+                <h3 class="title-style text-center">Promoción de eventos sociales</h3>
                 <div class="d-flex flex-column justify-content-around p-0 mx-2 mb-0">
                     <div class="row p-0 m-auto bg-transparent">
                         <div class="d-flex flex-column well well-sm">
@@ -512,8 +513,8 @@
             </div>
 
 
-            <div class="item" id="section9">
-                <h3 class="title-style ">Suscripción a una página/evento</h3>
+            <div class="carousel-item" id="section9">
+                <h3 class="title-style text-center">Suscripción a una página/evento</h3>
                 <div class="d-flex flex-column justify-content-around p-0 mx-2 mb-0">
                     <div class="row p-0 m-auto bg-transparent">
                         <div class="d-flex flex-column well well-sm">
@@ -549,8 +550,8 @@
             </div>
 
 
-            <div class="item" id="section10">
-                <h3 class="title-style">Encuestas de satisfacción y fidelización</h3>
+            <div class="carousel-item" id="section10">
+                <h3 class="title-style text-center">Encuestas de satisfacción y fidelización</h3>
                 <div class="d-flex flex-column justify-content-around p-0 mx-2 mb-0">
                     <div class="row p-0 m-auto bg-transparent">
                         <div class="d-flex flex-column well well-sm">
@@ -581,61 +582,61 @@
                 </div>
             </div>
 
-            <div class="item" id="section10">
+            <div class="carousel-item text-center" id="section10">
 
-
+<div class="container col-sm-8">
 
                 <h3 class="title-style">Comunicate con nosotros</h3>
 
 
 
-                    <div class="well well-sm">
+                    <div class="card align-content-sm-left">
                         <div id="section11">
-                            <form class="form-horizontal"  method="POST" action="/redcem">
+                            <form class="form"  method="POST" action="/redcem">
                                 {{csrf_field()}}
 
 
-                                <fieldset>
+
 
                                     <legend class="text-center header">Envianos tu información</legend>
 
                                     <div class="form-group">
-                                        <span class="col-md-1 col-md-offset-2 text-center"></span>
-                                        <div class="col-md-8">
+                                        <span class="col-md-1 col-md-offset-2"></span>
+                                        <div  class="col-sm-12">
                                             <input  id="name" name="name" type="text" placeholder="Nombres" class="form-control {{ $errors->has('name') ? : '' }}" required>
                                         </div>
-                                    </div>
+                                        </div>
                                     <div class="form-group">
                                         <span class="col-md-1 col-md-offset-2 text-center"></span>
-                                        <div class="col-md-8">
+                                        <div class="col-sm-12">
                                             <input id="lastName" name="lastName" type="text" placeholder="Apellidos" class="form-control {{ $errors->has('lastName') ? : '' }}" required>
                                         </div>
                                     </div>
 
                                     <div class="form-group">
                                         <span class="col-md-1 col-md-offset-2 text-center"></span>
-                                        <div class="col-md-8">
+                                        <div class="col-md-12">
                                             <input id="email" name="email" type="text" placeholder="Email" class="form-control {{ $errors->has('email') ? : '' }}" required>
                                         </div>
                                     </div>
 
                                     <div class="form-group">
                                         <span class="col-md-1 col-md-offset-2 text-center"></span>
-                                        <div class="col-md-8">
+                                        <div class="col-md-12">
                                             <input id="phoneNumber" name="phoneNumber" type="text" placeholder="Número de Telefono" class="form-control {{ $errors->has('phoneNumber') ? : '' }}" required>
                                         </div>
                                     </div>
 
                                     <div class="form-group">
                                         <span class="col-md-1 col-md-offset-2 text-center"></span>
-                                        <div class="col-md-8">
+                                        <div class="col-md-12">
                                             <textarea type="text" class="form-control {{ $errors->has('message') ? : '' }}" id="message" name="message" placeholder="Escribe tu mensaje, te responderemos lo mas pronto posible" rows="7" required></textarea>
                                         </div>
                                     </div>
 
                                     <div class="form-group">
                                     <span class="col-md-1 col-md-offset-2 text-center"></span>
-                                    <div class="col-md-8">
+                                    <div class="col-md-12">
                                         <input  id="selection"  type="hidden" v-model="button"  class="form-control" readonly="readonly" name="selection" >
                                     </div>
                                     </div>
@@ -656,7 +657,7 @@
                                         </div>
                                         </div>
                                     </div>
-                                </fieldset>
+
                                 @if ($errors->any())
                                     <div class="alert alert-danger">
                                         <ul>
@@ -671,9 +672,11 @@
                         </div>
                     </div>
 
+
+
                 </div>
 
-
+        </div>
         </div>
 
     </div>

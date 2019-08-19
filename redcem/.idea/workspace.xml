@@ -86,8 +86,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/users/create.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="58">
-              <caret line="97" column="30" selection-start-line="97" selection-start-column="30" selection-end-line="97" selection-end-column="30" />
+            <state relative-caret-position="183">
+              <caret line="592" column="36" selection-start-line="592" selection-start-column="36" selection-end-line="592" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -421,12 +421,13 @@
       <workItem from="1565792805357" duration="16097000" />
       <workItem from="1565878732741" duration="11250000" />
       <workItem from="1565890475221" duration="6725000" />
-      <workItem from="1565965507640" duration="18224000" />
+      <workItem from="1565965507640" duration="18750000" />
+      <workItem from="1566224705990" duration="12109000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="334712000" />
+    <option name="totallyTimeSpent" value="347347000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1374" height="748" extended-state="6" />
@@ -675,17 +676,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/users/create.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="97" column="30" selection-start-line="97" selection-start-column="30" selection-end-line="97" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/users/redcem.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
           <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/users/create.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="592" column="36" selection-start-line="592" selection-start-column="36" selection-end-line="592" selection-end-column="36" />
         </state>
       </provider>
     </entry>
