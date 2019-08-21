@@ -210,16 +210,17 @@
 
             <div class="carousel-item" id="section1" >
                 <h3 class="title-style text-center">Vender un producto/servicio</h3>
-                    <div class="d-flex flex-column justify-content-around p-0 mx-2 mb-0">
+                    <div class="d-flex flex-colum justify-content--around  p-0 mx-2 mb-0">
                     <div class="row p-0 m-auto bg-transparent ">
                     <div class="d-flex flex-column well well-sm">
-                    <div class="card d-flex flex-xl-row-reverse">
-                        <img src="https://www.redcem.org/images/paquete-foto-mini.jpg" class="embed-responsive-item rounded" alt="">
-                        <div class="paquete">
+                    <div class="card d-flex flex-lg-row-reverse">
+                        <img src="https://scontent.fmex5-1.fna.fbcdn.net/v/t1.15752-9/68591864_964821500536074_7698214353882841088_n.jpg?_nc_cat=103&amp;_nc_oc=AQketLJbF334Ea4fvFL2_2OLqFcSDc6GaVdruqt2FHg73aF0L2uZ3I-dolfAe2-Ah0U&amp;_nc_ht=scontent.fmex5-1.fna&amp;oh=b87bd4cf8dff1535a8a6ade1df0a52ad&amp;oe=5DD0BEF3"
+                             class="embed-responsive-item rounded" alt="" style="max-width: 100%; width: 100%;">
+                        <div class="col-lg-6">
                         <div class="card-body">
                             <h5 class="card-title"><strong>Sesiones fotográficas publicitarias</strong></h5>
                             <p class="card-text">
-                            <p align="center">
+                            <p class="text-left" style="max-width: 100%; width: 100%;">
                                 • Análisis de negocio<br>
                                 • Creación de contenido (4 por mes)<br>
                                 • 1 post semanal<br>
@@ -230,9 +231,9 @@
                                 • Creación/revisión de fan page o perfil 4 hrs.<br>
 
                             </p>
-                            <div class="col-lg-12 text-center">
-                                <button class="btn btn-danger btn-lg" data-target="#myCarousel" data-slide-to="0" >Regresar al menú</button>
-                                <button @click="button = 'vender_producto'" class="btn btn-danger btn-lg" data-target="#myCarousel" data-slide-to="11">Enviar Información</button>
+                            <div class="col-sm-12 text-center">
+                                <button class="btn btn-danger btn-md" data-target="#myCarousel" data-slide-to="0" >Regresar al menú</button>
+                                <button @click="button = 'vender_producto'" class="btn btn-danger btn-md" data-target="#myCarousel" data-slide-to="11">Enviar Información</button>
                             </div>
                             </div>
                         </div>
@@ -252,12 +253,13 @@
                     <div class="row p-0 m-auto bg-transparent">
                         <div class="d-flex flex-column well well-sm">
                             <div class="card d-flex flex-xl-row-reverse">
-                                <img src="https://www.redcem.org/images/paquete-foto-mini.jpg" class="embed-responsive-item rounded" alt="">
-                                <div class="paquete">
+                                <img src="https://scontent.fmex5-1.fna.fbcdn.net/v/t1.15752-9/68591864_964821500536074_7698214353882841088_n.jpg?_nc_cat=103&amp;_nc_oc=AQketLJbF334Ea4fvFL2_2OLqFcSDc6GaVdruqt2FHg73aF0L2uZ3I-dolfAe2-Ah0U&amp;_nc_ht=scontent.fmex5-1.fna&amp;oh=b87bd4cf8dff1535a8a6ade1df0a52ad&amp;oe=5DD0BEF3"
+                                     class="embed-responsive-item rounded" alt="" style="max-width: 100%; width: 100%;">
+                                <div class="col-lg-6">
                                     <div class="card-body">
                                         <h5 class="card-title"><strong>Sesiones fotográficas publicitarias</strong></h5>
                                         <p class="card-text">
-                                        <p align="center">
+                                        <p class="text-left">
                                             • Análisis de negocio<br>
                                             • Creación de contenido (4 por mes)<br>
                                             • 1 post semanal<br>
@@ -271,8 +273,8 @@
                                             • Minimo 3 meses<br>
                                         </p>
                                         <div class="col-lg-12 text-center" >
-                                        <button class="btn btn-danger btn-lg" data-target="#myCarousel" data-slide-to="0">Regresar al menú</button>
-                                        <button @click="button ='ventas_internet'" class="btn btn-danger btn-lg" data-target="#myCarousel" data-slide-to="11">Enviar Información</button>
+                                        <button class="btn btn-danger btn-md" data-target="#myCarousel" data-slide-to="0">Regresar al menú</button>
+                                        <button @click="button ='ventas_internet'" class="btn btn-danger btn-md" data-target="#myCarousel" data-slide-to="11">Enviar Información</button>
                                         </div>
                                         </div>
                                 </div>
@@ -290,12 +292,13 @@
                     <div class="row p-0 m-auto bg-transparent">
                         <div class="d-flex flex-column well well-sm">
                             <div class="card d-flex flex-xl-row-reverse">
-                                <img src="https://www.redcem.org/images/paquete-foto-mini.jpg" class="embed-responsive-item rounded" alt="">
-                                <div class="paquete">
+                                <img src="https://scontent.fmex5-1.fna.fbcdn.net/v/t1.15752-9/68591864_964821500536074_7698214353882841088_n.jpg?_nc_cat=103&amp;_nc_oc=AQketLJbF334Ea4fvFL2_2OLqFcSDc6GaVdruqt2FHg73aF0L2uZ3I-dolfAe2-Ah0U&amp;_nc_ht=scontent.fmex5-1.fna&amp;oh=b87bd4cf8dff1535a8a6ade1df0a52ad&amp;oe=5DD0BEF3"
+                                     class="embed-responsive-item rounded" alt="" style="max-width: 100%; width: 100%;">
+                                <div class="col-lg-6">
                                     <div class="card-body">
                                         <h5 class="card-title"><strong>Sesiones fotográficas publicitarias</strong></h5>
                                         <p class="card-text">
-                                        <p align="auto">
+                                        <p class="text-left">
                                             • Análisis de negocio<br>
                                             • Creación de contenido (4 por mes)<br>
                                             • 1 post semanal<br>
@@ -308,8 +311,8 @@
 
                                         </p>
                                         <div class="col-lg-12 text-center">
-                                        <div class="btn btn-danger btn-lg" data-target="#myCarousel" data-slide-to="0" role="button" >Regresar al menú</div>
-                                        <button @click="button ='likes_seguidores'" class="btn btn-danger btn-lg" data-target="#myCarousel" data-slide-to="11">Enviar Información</button>
+                                        <div class="btn btn-danger btn-md" data-target="#myCarousel" data-slide-to="0" role="button" >Regresar al menú</div>
+                                        <button @click="button ='likes_seguidores'" class="btn btn-danger btn-md" data-target="#myCarousel" data-slide-to="11">Enviar Información</button>
                                         </div>
                                         </div>
                                 </div>
@@ -326,12 +329,13 @@
                     <div class="row p-0 m-auto bg-transparent">
                         <div class="d-flex flex-column well well-sm">
                             <div class="card d-flex flex-xl-row-reverse">
-                                <img src="https://www.redcem.org/images/paquete-foto-mini.jpg" class="embed-responsive-item rounded" alt="">
-                                <div class="paquete">
+                                <img src="https://scontent.fmex5-1.fna.fbcdn.net/v/t1.15752-9/68591864_964821500536074_7698214353882841088_n.jpg?_nc_cat=103&amp;_nc_oc=AQketLJbF334Ea4fvFL2_2OLqFcSDc6GaVdruqt2FHg73aF0L2uZ3I-dolfAe2-Ah0U&amp;_nc_ht=scontent.fmex5-1.fna&amp;oh=b87bd4cf8dff1535a8a6ade1df0a52ad&amp;oe=5DD0BEF3"
+                                     class="embed-responsive-item rounded" alt="" style="max-width: 100%; width: 100%;">
+                                <div class="col-lg-6">
                                     <div class="card-body">
                                         <h5 class="card-title"><strong>Sesiones fotográficas publicitarias</strong></h5>
                                         <p class="card-text">
-                                        <p align="auto">
+                                        <p class="text-left">
                                             • Análisis de negocio<br>
                                             • Creación de contenido (4 por mes)<br>
                                             • 1 post semanal<br>
@@ -346,8 +350,8 @@
 
                                         </p>
                                         <div class="col-lg-12 text-center">
-                                        <div class="btn btn-danger btn-lg" data-target="#myCarousel" data-slide-to="0" role="button">Regresar al menú</div>
-                                        <button @click="button ='conocer_marca'" class="btn btn-danger btn-lg" data-target="#myCarousel" data-slide-to="11">Enviar Información</button>
+                                        <div class="btn btn-danger btn-md" data-target="#myCarousel" data-slide-to="0" role="button">Regresar al menú</div>
+                                        <button @click="button ='conocer_marca'" class="btn btn-danger btn-md" data-target="#myCarousel" data-slide-to="11">Enviar Información</button>
                                         </div>
                                         </div>
                                 </div>
@@ -367,12 +371,13 @@
                     <div class="row p-0 m-auto bg-transparent">
                         <div class="d-flex flex-column well well-sm">
                             <div class="card d-flex flex-xl-row-reverse">
-                                <img src="https://www.redcem.org/images/paquete-foto-mini.jpg" class="embed-responsive-item rounded" alt="">
-                                <div class="paquete">
+                                <img src="https://scontent.fmex5-1.fna.fbcdn.net/v/t1.15752-9/68591864_964821500536074_7698214353882841088_n.jpg?_nc_cat=103&amp;_nc_oc=AQketLJbF334Ea4fvFL2_2OLqFcSDc6GaVdruqt2FHg73aF0L2uZ3I-dolfAe2-Ah0U&amp;_nc_ht=scontent.fmex5-1.fna&amp;oh=b87bd4cf8dff1535a8a6ade1df0a52ad&amp;oe=5DD0BEF3"
+                                     class="embed-responsive-item rounded" alt="" style="max-width: 100%; width: 100%;">
+                                <div class="col-lg-6">
                                     <div class="card-body">
                                         <h5 class="card-title"><strong>Sesiones fotográficas publicitarias</strong></h5>
                                         <p class="card-text">
-                                        <p align="auto">
+                                        <p class="text-left">
                                             • Análisis de negocio 2 hrs.<br>
                                             • Creación de contenido (4 por mes)<br>
                                             • 1 post semanal<br>
@@ -387,8 +392,8 @@
 
                                         </p>
                                         <div class="col-lg-12 text-center">
-                                        <div class="btn btn-danger btn-lg" data-target="#myCarousel" data-slide-to="0" role="button" >Regresar al menú</div>
-                                        <button @click="button ='agendar_citas'" class="btn btn-danger btn-lg" data-target="#myCarousel" data-slide-to="11" value="1">Enviar Información</button>
+                                        <div class="btn btn-danger btn-md" data-target="#myCarousel" data-slide-to="0" role="button" >Regresar al menú</div>
+                                        <button @click="button ='agendar_citas'" class="btn btn-danger btn-md" data-target="#myCarousel" data-slide-to="11" value="1">Enviar Información</button>
                                     </div>
                                     </div>
                                 </div>
@@ -404,12 +409,13 @@
                     <div class="row p-0 m-auto bg-transparent">
                         <div class="d-flex flex-column well well-sm">
                             <div class="card d-flex flex-xl-row-reverse">
-                                <img src="https://www.redcem.org/images/paquete-foto-mini.jpg" class="embed-responsive-item rounded" alt="">
-                                <div class="paquete">
+                                <img src="https://scontent.fmex5-1.fna.fbcdn.net/v/t1.15752-9/68591864_964821500536074_7698214353882841088_n.jpg?_nc_cat=103&amp;_nc_oc=AQketLJbF334Ea4fvFL2_2OLqFcSDc6GaVdruqt2FHg73aF0L2uZ3I-dolfAe2-Ah0U&amp;_nc_ht=scontent.fmex5-1.fna&amp;oh=b87bd4cf8dff1535a8a6ade1df0a52ad&amp;oe=5DD0BEF3"
+                                     class="embed-responsive-item rounded" alt="" style="max-width: 100%; width: 100%;">
+                                <div class="col-lg-6">
                                     <div class="card-body">
                                         <h5 class="card-title"><strong>Sesiones fotográficas publicitarias</strong></h5>
                                         <p class="card-text">
-                                        <p align="auto">
+                                        <p class="text-left">
                                             • Análisis de negocio<br>
                                             • Creación de contenido<br>
                                             • 1 post semanal<br>
@@ -426,8 +432,8 @@
 
                                         </p>
                                         <div class="col-lg-12 text-center">
-                                        <div class="btn btn-danger btn-lg" data-target="#myCarousel" data-slide-to="0" role="button" >Regresar al menú</div>
-                                        <button @click="button ='visitas_local'" class="btn btn-danger btn-lg" data-target="#myCarousel" data-slide-to="11" value="1">Enviar Información</button>
+                                        <div class="btn btn-danger btn-md" data-target="#myCarousel" data-slide-to="0" role="button" >Regresar al menú</div>
+                                        <button @click="button ='visitas_local'" class="btn btn-danger btn-md" data-target="#myCarousel" data-slide-to="11" value="1">Enviar Información</button>
                                     </div>
                                     </div>
                                 </div>
@@ -444,12 +450,13 @@
                     <div class="row p-0 m-auto bg-transparent">
                         <div class="d-flex flex-column well well-sm">
                             <div class="card d-flex flex-xl-row-reverse">
-                                <img src="https://www.redcem.org/images/paquete-foto-mini.jpg" class="embed-responsive-item rounded" alt="">
-                                <div class="paquete">
+                                <img src="https://scontent.fmex5-1.fna.fbcdn.net/v/t1.15752-9/68591864_964821500536074_7698214353882841088_n.jpg?_nc_cat=103&amp;_nc_oc=AQketLJbF334Ea4fvFL2_2OLqFcSDc6GaVdruqt2FHg73aF0L2uZ3I-dolfAe2-Ah0U&amp;_nc_ht=scontent.fmex5-1.fna&amp;oh=b87bd4cf8dff1535a8a6ade1df0a52ad&amp;oe=5DD0BEF3"
+                                     class="embed-responsive-item rounded" alt="" style="max-width: 100%; width: 100%;">
+                                <div class="col-lg-6">
                                     <div class="card-body">
                                         <h5 class="card-title"><strong>Sesiones fotográficas publicitarias</strong></h5>
                                         <p class="card-text">
-                                        <p align="auto">
+                                        <p class="text-left">
                                             • Análisis de negocio<br>
                                             • Creación de contenido (4 por mes)<br>
                                             • 1 post semanal<br>
@@ -462,8 +469,8 @@
 
                                         </p>
                                         <div class="col-lg-12 text-center">
-                                        <div class="btn btn-danger btn-lg" data-target="#myCarousel" data-slide-to="0" role="button" >Regresar al menú</div>
-                                        <button @click="button ='visitas_web'" class="btn btn-danger btn-lg" data-target="#myCarousel" data-slide-to="11" value="1">Enviar Información</button>
+                                        <div class="btn btn-danger btn-sm" data-target="#myCarousel" data-slide-to="0" role="button" >Regresar al menú</div>
+                                        <button @click="button ='visitas_web'" class="btn btn-danger btn-sm" data-target="#myCarousel" data-slide-to="11" value="1">Enviar Información</button>
                                     </div>
                                     </div>
                                 </div>
@@ -479,12 +486,13 @@
                     <div class="row p-0 m-auto bg-transparent">
                         <div class="d-flex flex-column well well-sm">
                             <div class="card d-flex flex-xl-row-reverse">
-                                <img src="https://www.redcem.org/images/paquete-foto-mini.jpg" class="embed-responsive-item rounded" alt="">
-                                <div class="paquete">
+                                <img src="https://scontent.fmex5-1.fna.fbcdn.net/v/t1.15752-9/68591864_964821500536074_7698214353882841088_n.jpg?_nc_cat=103&amp;_nc_oc=AQketLJbF334Ea4fvFL2_2OLqFcSDc6GaVdruqt2FHg73aF0L2uZ3I-dolfAe2-Ah0U&amp;_nc_ht=scontent.fmex5-1.fna&amp;oh=b87bd4cf8dff1535a8a6ade1df0a52ad&amp;oe=5DD0BEF3"
+                                     class="embed-responsive-item rounded" alt="" style="max-width: 100%; width: 100%;">
+                                <div class="col-lg-6">
                                     <div class="card-body">
                                         <h5 class="card-title"><strong>Sesiones fotográficas publicitarias</strong></h5>
                                         <p class="card-text">
-                                        <p align="auto">
+                                        <p class="text-left">
                                             • Creación de contenido (4 por mes)<br>
                                             • 1 post semanal<br>
                                             • Análisis semanal de resultados<br>
@@ -501,8 +509,8 @@
 
                                         </p>
                                         <div class="col-lg-12 text-center">
-                                        <div class="btn btn-danger btn-lg" data-target="#myCarousel" data-slide-to="0" role="button" >Regresar al menú</div>
-                                        <button @click="button ='promocion_eventos'" class="btn btn-danger btn-lg" data-target="#myCarousel" data-slide-to="11" value="1">Enviar Información</button>
+                                        <div class="btn btn-danger btn-md" data-target="#myCarousel" data-slide-to="0" role="button" >Regresar al menú</div>
+                                        <button @click="button ='promocion_eventos'" class="btn btn-danger btn-md" data-target="#myCarousel" data-slide-to="11" value="1">Enviar Información</button>
                                     </div>
                                     </div>
                                 </div>
@@ -519,12 +527,13 @@
                     <div class="row p-0 m-auto bg-transparent">
                         <div class="d-flex flex-column well well-sm">
                             <div class="card d-flex flex-xl-row-reverse">
-                                <img src="https://www.redcem.org/images/paquete-foto-mini.jpg" class="embed-responsive-item rounded" alt="">
-                                <div class="paquete">
+                                <img src="https://scontent.fmex5-1.fna.fbcdn.net/v/t1.15752-9/68591864_964821500536074_7698214353882841088_n.jpg?_nc_cat=103&amp;_nc_oc=AQketLJbF334Ea4fvFL2_2OLqFcSDc6GaVdruqt2FHg73aF0L2uZ3I-dolfAe2-Ah0U&amp;_nc_ht=scontent.fmex5-1.fna&amp;oh=b87bd4cf8dff1535a8a6ade1df0a52ad&amp;oe=5DD0BEF3"
+                                     class="embed-responsive-item rounded" alt="" style="max-width: 100%; width: 100%;">
+                                <div class="col-lg-6">
                                     <div class="card-body">
                                         <h5 class="card-title"><strong>Sesiones fotográficas publicitarias</strong></h5>
                                         <p class="card-text">
-                                        <p align="auto">
+                                        <p class="text-left">
                                             • Creación de contenido<br>
                                             • 1 post semanal<br>
                                             • Análisis semanal de resultados<br>
@@ -538,8 +547,8 @@
 
                                         </p>
                                         <div class="col-lg-12 text-center">
-                                        <div class="btn btn-danger btn-lg" data-target="#myCarousel" data-slide-to="0" role="button" >Regresar al menú</div>
-                                        <button @click="button ='suscripcion_pagina'" class="btn btn-danger btn-lg" data-target="#myCarousel" data-slide-to="11" value="1">Enviar Información</button>
+                                        <div class="btn btn-danger btn-md" data-target="#myCarousel" data-slide-to="0" role="button" >Regresar al menú</div>
+                                        <button @click="button ='suscripcion_pagina'" class="btn btn-danger btn-md" data-target="#myCarousel" data-slide-to="11" value="1">Enviar Información</button>
                                     </div>
                                     </div>
                                 </div>
@@ -556,12 +565,13 @@
                     <div class="row p-0 m-auto bg-transparent">
                         <div class="d-flex flex-column well well-sm">
                             <div class="card d-flex flex-xl-row-reverse">
-                                <img src="https://www.redcem.org/images/paquete-foto-mini.jpg" class="img-responsive rounded mx-auto" alt="">
-                                <div class="paquete">
+                                <img src="https://scontent.fmex5-1.fna.fbcdn.net/v/t1.15752-9/68591864_964821500536074_7698214353882841088_n.jpg?_nc_cat=103&amp;_nc_oc=AQketLJbF334Ea4fvFL2_2OLqFcSDc6GaVdruqt2FHg73aF0L2uZ3I-dolfAe2-Ah0U&amp;_nc_ht=scontent.fmex5-1.fna&amp;oh=b87bd4cf8dff1535a8a6ade1df0a52ad&amp;oe=5DD0BEF3"
+                                     class="embed-responsive-item rounded" alt="" style="max-width: 100%; width: 100%;">
+                                <div class="col-lg-6">
                                     <div class="card-body">
                                         <h5 class="card-title"><strong>Sesiones fotográficas publicitarias</strong></h5>
                                         <p class="card-text">
-                                        <p align="auto">
+                                        <p class="text-left">
                                             • Creación de encuesta de satisfacción (5 preguntas)<br>
                                             • Medición de NPS<br>
                                             • Notificación automática de respuestas vía Email<br>
@@ -571,8 +581,8 @@
 
                                         </p>
                                         <div class="col-lg-12 text-center">
-                                        <button class="btn btn-danger btn-lg" data-target="#myCarousel" data-slide-to="0">Regresar al menú</button>
-                                        <button @click="button ='encuestas_satisfaccion'" class="btn btn-danger btn-lg" data-target="#myCarousel" data-slide-to="11" value="1">Enviar Información</button>
+                                        <button class="btn btn-danger btn-md" data-target="#myCarousel" data-slide-to="0">Regresar al menú</button>
+                                        <button @click="button ='encuestas_satisfaccion'" class="btn btn-danger btn-md" data-target="#myCarousel" data-slide-to="11" value="1">Enviar Información</button>
                                     </div>
                                     </div>
                                 </div>
